@@ -13,9 +13,9 @@ export const Home = () => {
       <ParticlesBackground />
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-20">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-right text-gray-50">
             {"Hello, I'm"}{' '}
-            <span className="bg-gradient-to-r from-sky-400 to-blue-400 bg-clip-text text-transparent text-center">
+            <span className="bg-gradient-to-r from-blue-500 to-sky-500 bg-clip-text text-transparent text-center">
               Flemming
             </span>
             <br />
