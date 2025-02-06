@@ -1,19 +1,21 @@
 import { RevealOnScroll } from '@components/RevealOnScroll'
 
 export const About = () => {
-  const frontendSkills = [
+  const skills = [
     'HTML',
     'CSS',
     'SCSS',
     'Javascript',
     'Typescript',
     'React',
-    'NextJs',
+    'Next.js',
     'Vue',
     'Tailwind',
     'Storybook',
     'WCAG',
     'Node',
+    'Express',
+    'MongoDB',
     'PHP',
     'Wordpress',
     'Headless CMS',
@@ -47,7 +49,7 @@ export const About = () => {
               <div className="rounded-xl p-6 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Skills</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {skills.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -64,36 +66,41 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border transition-all">
-              <h3 className="text-xl font-bold mb-4">
-                <span className="text-3xl scale-85">🏫</span> Education
+              <h3 className="text-xl font-bold mb-4 space-x-2">
+                <span className="text-2xl">🏫</span>
+                <span>Education</span>
               </h3>
-              <ul className="text-gray-300 space-y-2">
+              <ul className="text-gray-300 space-y-4">
                 <li>
-                  <strong> B.S. in Webtechnology</strong> - Linnaeus University,
-                  Växjö (2017-2020)
+                  <p className="font-bold"> B.S. in Webtechnology</p>
+                  <p className="font-light">
+                    Linnaeus University, Växjö (2017-2020)
+                  </p>
                 </li>
                 <li>
-                  <strong>
+                  <p className="font-bold">
                     Higher Vocational Education Diploma in Game Development iOS
                     & Android
-                  </strong>{' '}
-                  - Malmö Yrkeshögskola (2014 - 2014)
+                  </p>
+                  <p className="font-light">
+                    Malmö Yrkeshögskola (2014 - 2014)
+                  </p>
                 </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border transition-all">
-              <h3 className="text-xl font-bold mb-4">
-                <span className="text-2xl">💼</span> Work Experience{' '}
+              <h3 className="text-xl space-x-2 font-bold mb-4">
+                <span className="text-2xl">💼</span>
+                <span>Work Experience</span>
               </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">Joymon AB (2023 - 2024)</h4>
-                  <p>IT-consultant</p>
+                  <p className="font-light">IT-consultant</p>
                 </div>
-
                 <div>
                   <h4 className="font-semibold">Consid S5 (2021 - 2023)</h4>
-                  <p>IT-consultant</p>
+                  <p className="font-light">IT-consultant</p>
                 </div>
               </div>
             </div>
