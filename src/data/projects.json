@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Sundström Safety",
+    "description": "Headless CMS using Next.js and Wordpress",
+    "tech": [
+      "Next.js",
+      "Typescript",
+      "Headless CMS",
+      "Wordpress",
+      "Tailwind",
+      "Storybook"
+    ],
+    "link": "https://srsafety.com/sv"
+  },
+  {
+    "name": "Mareld Pro Lightning",
+    "description": "Headless CMS using Next.js and DatoCMS",
+    "tech": [
+      "Next.js",
+      "Typescript",
+      "Headless CMS",
+      "DatoCMS",
+      "Tailwind",
+      "Storybook",
+      "GraphQL"
+    ],
+    "link": "https://mareldprolighting.com/"
+  },
+  {
+    "name": "Helsingborg Convent & Event Bureau",
+    "description": "Standard Wordpress site. Theme built from scratch",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Typescript",
+      "Tailwind",
+      "Storybook",
+      "Wordpress",
+      "PHP",
+      "Docker"
+    ],
+    "link": "https://helsingborgceb.com/"
+  },
+  {
+    "name": "Sofiero slott & slottsträdgård",
+    "description": "Standard Wordpress site. Theme built from scratch",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Typescript",
+      "Tailwind",
+      "Storybook",
+      "Wordpress",
+      "PHP",
+      "Docker"
+    ],
+    "link": "https://sofiero.se/"
+  },
+  {
+    "name": "SFHM (Statens Försvarshistoriska Museer)",
+    "description": "Multisite Wordpress site. Theme built from scratch",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Typescript",
+      "Tailwind",
+      "Storybook",
+      "Wordpress",
+      "PHP",
+      "Docker"
+    ],
+    "link": "https://sfhm.se/"
+  },
+  {
+    "name": "BIU Kurslista",
+    "description": "Wordpress plugin built in React.",
+    "tech": ["React", "Typescript", "SCSS", "PHP"],
+    "link": "https://biuonline.se/kurslista/"
+  }
+]
