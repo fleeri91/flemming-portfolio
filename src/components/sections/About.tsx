@@ -35,7 +35,7 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border transition-all">
+          <div className="rounded-xl p-6 sm:p-8 border-white/10 border transition-all">
             <p className="text-gray-300 mb-6">
               Passionated frontend developer specialized in HTML, CSS,
               JavaScript, and React. With a strong focus on creating
@@ -46,7 +46,7 @@ export const About = () => {
             </p>
 
             <div className="grid grid-cols-1 gap-6">
-              <div className="rounded-xl p-6 transition-all">
+              <div className="rounded-xl sm:p-6 transition-all">
                 <h3 className="text-xl font-bold mb-4"> Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((tech, key) => (
