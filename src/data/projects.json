@@ -58,7 +58,7 @@
   },
   {
     "name": "SFHM (Statens Försvarshistoriska Museer)",
-    "description": "Multisite Wordpress site. Theme built from scratch",
+    "description": "Wordpress multisite. Theme built from scratch",
     "tech": [
       "HTML",
       "CSS",
